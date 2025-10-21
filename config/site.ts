@@ -4,25 +4,22 @@ export const siteConfig = {
   name: "Next.js + HeroUI",
   description: "Make beautiful websites regardless of your design experience.",
   navItems: [
+    
     {
-      label: "Home",
-      href: "/",
+      label: "Proyectos",
+      href: "#projects",
     },
     {
-      label: "Docs",
-      href: "/docs",
+      label: "Habilidades",
+      href: "#skills",
     },
     {
-      label: "Pricing",
-      href: "/pricing",
+      label: "Contacto",
+      href: "#contact",
     },
     {
-      label: "Blog",
-      href: "/blog",
-    },
-    {
-      label: "About",
-      href: "/about",
+      label: "Sobre mí",
+      href: "#about",
     },
   ],
   navMenuItems: [
