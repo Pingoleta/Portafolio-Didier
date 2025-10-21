@@ -8,7 +8,7 @@ export default function Contact() {
         Ponte en Contacto
       </h2>
       <form
-        action="https://formsubmit.co/iamfarid1996@gmail.com"
+        action="https://formsubmit.co/delgadodidier189@gmail.com"
         method="POST"
         className="max-w-lg mx-auto flex flex-col gap-4"
       >

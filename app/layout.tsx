@@ -11,13 +11,14 @@ import { Navbar } from "@/components/navbar";
 
 export const metadata: Metadata = {
   title: {
-    default: siteConfig.name,
+    default: "Dev JO",
     template: `%s - ${siteConfig.name}`,
+
   },
   description: siteConfig.description,
-  icons: {
-    icon: "/favicon.ico",
-  },
+  
+  keywords:["Desarrollo web, front-end, portafolio, javascript, next js, react"],
+  authors: [{ name: "Didier Delgado"}],
 };
 
 export const viewport: Viewport = {
@@ -55,7 +56,7 @@ export default function RootLayout({
                 title="heroui.com homepage"
               >
                 
-                <p className="text-primary">&copy;Jo Dev 2025.</p>
+                <p className="text-primary">&copy;Jo Dev 2025</p>
               </Link>
             </footer>
           </div>

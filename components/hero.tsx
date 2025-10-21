@@ -4,7 +4,7 @@ export default function Hero() {
       <h1 className="text-5xl md:text-6xl font-extrabold leading-tight">
         <br /> Mi <br /> portafolio
       </h1>
-      <p className="mt-4 text-lg text-white/80">Didier Delgado</p>
+      <p className="mt-4 text-lg text-black/80">Didier Delgado</p>
     </section>
   );
 }

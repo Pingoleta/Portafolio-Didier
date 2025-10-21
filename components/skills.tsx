@@ -6,11 +6,11 @@ export default function Skills() {
       <h2 className="text-3xl font-bold mb-8 text-center text-neonGreen">
         Habilidades
       </h2>
-      <div className="flex justify-center flex-wrap gap-6">
+      <div className="flex justify-center flex-wrap gap-6 hover:shado">
         {skills.map((skill) => (
           <div
             key={skill}
-            className="px-6 py-3 bg-black rounded-xl border border-neonGreen text-white font-medium"
+            className="bg-fuchsia-700 px-6 py-3 bg rounded-xl border border-neonGreen text-white font-medium "
           >
             {skill}
           </div>
